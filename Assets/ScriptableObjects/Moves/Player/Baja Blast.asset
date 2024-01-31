@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1904c4d2c3c286941a771a0688664319, type: 3}
+  m_Name: Baja Blast
+  m_EditorClassIdentifier: 
+  name: Baja Blast
+  damageMin: 3
+  damageMax: 6
+  hpChange: 0
+  cutsDamage: 0
+  animalScaler: {fileID: 0}
+  description: Hurls fruits at foe.
+  sideEffectDescription: -Fruit increases by 35
+  element: 0
+  animalChanges:
+  - animals:
+    - {fileID: 11400000, guid: 72513a3b65583444bb9db7f6194e43b5, type: 2}
+    change: 35
+    rate: 1
+    onReceiveDamage: 0
+    scalesWithDamage: 0

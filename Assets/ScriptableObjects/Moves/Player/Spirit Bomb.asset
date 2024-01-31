@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1904c4d2c3c286941a771a0688664319, type: 3}
+  m_Name: Spirit Bomb
+  m_EditorClassIdentifier: 
+  name: Spirit Bomb
+  damageMin: 1
+  damageMax: 99
+  hpChange: 0
+  cutsDamage: 0
+  animalScaler: {fileID: 0}
+  description: Deals potentially massive damage.
+  sideEffectDescription: -Cuts all species populations in half
+  element: 0
+  animalChanges:
+  - animals:
+    - {fileID: 11400000, guid: 202676d22e7f6f345b7e7a4f2160befb, type: 2}
+    - {fileID: 11400000, guid: 175a6bc51bcec3d4fa9c10e61212da15, type: 2}
+    - {fileID: 11400000, guid: d02d11baece189243867a3bbc758a43e, type: 2}
+    - {fileID: 11400000, guid: 5f05923c10b4b5f409ab41b87699e253, type: 2}
+    - {fileID: 11400000, guid: 3e66722dcce69b44cb71032e65c20bf1, type: 2}
+    - {fileID: 11400000, guid: 72513a3b65583444bb9db7f6194e43b5, type: 2}
+    - {fileID: 11400000, guid: 23d63c3a2c6ac3c4fb61a054a1664cc2, type: 2}
+    - {fileID: 11400000, guid: 15650e2485c95684d9e661388f1cef70, type: 2}
+    - {fileID: 11400000, guid: f980c486e2f2d374eba53da1ae8346eb, type: 2}
+    - {fileID: 11400000, guid: 4f80dbe3e2709b242813795002d7076e, type: 2}
+    change: 0
+    rate: 0.5
+    onReceiveDamage: 0
+    scalesWithDamage: 0
